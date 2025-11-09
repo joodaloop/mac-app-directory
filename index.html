@@ -1,40 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head> 
-      <title> Mac App Directory </title>
-      <meta charset="utf-8">
-      <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Mac App Directory</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="apple-touch-icon" sizes="180x180"  href="card.png"> 
-      <link rel="icon" type="image/png" sizes="32x32" href="card.png"> 
-      <link rel="icon" type="image/png" sizes="16x16"  href="card.png"> 
-      <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="card.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="card.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="card.png" />
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
 
-        <!-- Facebook Open Graph tags -->
-      <meta property="og:url" content="https://mac.joodaloop.com" />
-      <meta property="og:title" content="Mac App Directory" />
-      <meta property="og:description" content="MacOS apps that are good software." />
-      <meta property="og:image" content="https://mac.joodaloop.com/card.png" />
+    <!-- Facebook Open Graph tags -->
+    <meta property="og:url" content="https://mac.joodaloop.com" />
+    <meta property="og:title" content="Mac App Directory" />
+    <meta property="og:description" content="MacOS apps that are good software." />
+    <meta property="og:image" content="https://mac.joodaloop.com/card.png" />
 
-      <!-- Twitter Card (large image card) tags -->
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:creator" content="@joodaloop">
-      <meta name="twitter:title" content="Mac App Directory">
-      <meta name="twitter:description" content="MacOS apps that are good software." />
-      <meta name="twitter:image" content="https://mac.joodaloop.com/card.png" />
+    <!-- Twitter Card (large image card) tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@joodaloop" />
+    <meta name="twitter:title" content="Mac App Directory" />
+    <meta name="twitter:description" content="MacOS apps that are good software." />
+    <meta name="twitter:image" content="https://mac.joodaloop.com/card.png" />
 
-      <meta name="description" content="MacOS apps that are good software.">
-</head>
+    <meta name="description" content="MacOS apps that are good software." />
 
     <style>
-
-      *{
+      * {
         box-sizing: border-box;
       }
 
-      *:first-child{
+      *:first-child {
         margin-top: 0px;
       }
 
@@ -46,20 +44,20 @@
         background: #f9f9f9;
       }
 
-      header{
+      header {
         font-size: 4rem;
         font-weight: bold;
         margin-bottom: 0.5em;
       }
 
-      h1{
+      h1 {
         line-height: 1em;
         font-weight: 300;
         max-width: 40rem;
         display: inline-block;
       }
 
-      .introduction{
+      .introduction {
         display: inline-block;
         width: calc(100% - 41rem);
         font-size: 2rem;
@@ -67,29 +65,29 @@
         text-align: right;
       }
 
-      main{
+      main {
         margin-bottom: 3em;
       }
 
-      footer{
+      footer {
         padding: 0em 0.5em;
         font-weight: 400;
       }
 
-      footer a{
+      footer a {
         font-weight: 800;
         text-decoration: none;
         color: inherit;
       }
 
-      .flex{
+      .flex {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         gap: 45px 45px;
       }
 
-      .app{
+      .app {
         display: inline-flex;
         box-shadow: 0px 3px 12px #ddd;
         padding: 0em;
@@ -97,20 +95,20 @@
         border-radius: 10px;
         background: #fdfdfd;
         border: solid 0px #eee;
-/*        height: fit-content;*/
+        /*        height: fit-content;*/
       }
 
-      h3{
+      h3 {
         line-height: 1em;
         font-size: 1.4em;
       }
 
-      h2{
+      h2 {
         font-size: 2.5em;
         margin-top: 2em;
       }
 
-      .price{
+      .price {
         font-size: 14px;
         font-weight: 400;
         margin-left: 0.8em;
@@ -118,366 +116,648 @@
         font-style: italic;
       }
 
-      .app a{
+      .app a {
         text-decoration: none;
         color: inherit;
       }
 
-      .app a:hover, .app p > a{
+      .app a:hover,
+      .app p > a {
         text-decoration: underline;
       }
 
-      .logo{
+      .logo {
         width: 10rem;
         height: 10rem;
         margin: 0.5em;
       }
 
-      .content{
+      .content {
         width: calc(100% - 10rem);
         font-size: 16px;
         padding: 1.5em 1.5em 0.5em 0.25em;
         line-height: 1.3em;
       }
 
-      img{
+      img {
         width: 100%;
       }
 
-      img:hover{
+      img:hover {
         transform: scale(0.98);
       }
 
-      @media screen and (max-width: 940px){
-
-        h1{
+      @media screen and (max-width: 940px) {
+        h1 {
           max-width: 100%;
         }
 
-        .introduction{
+        .introduction {
           width: 100%;
           text-align: left;
         }
 
-        .app{
+        .app {
           width: 100%;
         }
       }
 
-      @media screen and (max-width: 500px){
-
-        body{
+      @media screen and (max-width: 500px) {
+        body {
           padding: 25px;
         }
-        
-        header{
+
+        header {
           font-size: 2.5em;
         }
 
-        .app{
+        .app {
           display: inline-block;
         }
 
-        .logo{
+        .logo {
           width: 100%;
           height: fit-content;
           padding: 0em;
           margin: 0em;
         }
 
-        .content{
+        .content {
           padding: 0.5em 1.5em;
           width: 100%;
         }
-
-
       }
-
-      
     </style>
   </head>
 
   <body>
-        <header>
-          <h1> The <br>Mac App Directory </h1>
+    <header>
+      <h1>The <br />Mac App Directory</h1>
 
-          <div class=introduction>
-            <p> The Mac has a long tradition of independent devs and small teams working to make high-quality native apps for it. </p>
-            <p style="font-weight: 300;"> Lightweight, made to last, polished with care, single-purchase licenses.</p>
-            <p> They are good software.</p>
+      <div class="introduction">
+        <p>
+          The Mac has a long tradition of independent devs and small teams working to make high-quality native apps for
+          it.
+        </p>
+        <p style="font-weight: 300">Lightweight, polished, often single-purchase licenses.</p>
+        <p>Good software.</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="flex">
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://www.alfredapp.com/"><img src="logos/alfred.png" /></a>
           </div>
-        </header>
-
-        <main>
-        <div class=flex>
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://www.alfredapp.com/"><img src="logos/alfred.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://www.alfredapp.com/">
-                <h3>Alfred<div class=price>$45</div></h3>
-              </a>
-              <p> The classic Spotlight upgrade.</p>
-              <p class=features> Launch applications and find files, clipboard history, hotkeys and workflows, snippet expansion, themes, shell integration.</p>
-            </div>
+          <div class="content">
+            <a target="_blank" href="https://www.alfredapp.com/">
+              <h3>
+                Alfred
+                <div class="price">$45</div>
+              </h3>
+            </a>
+            <p>The classic Spotlight upgrade.</p>
+            <p class="features">
+              Launch applications and find files, clipboard history, hotkeys and workflows, snippet expansion, themes,
+              shell integration.
+            </p>
           </div>
+        </div>
 
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://bear.app/"><img src="logos/bear.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://bear.app/">
-                <h3> Bear <div class=price>Freemium ($29.99/year)</div></h3>
-              </a>
-              <p>Bear is a beautiful, powerfully simple Markdown note taking app to capture, write, and organize your life.</p>
-              <p class=features> Markdown. Tags. Export/import as multiple formats. Resize or crop images. Themes.</p> 
-            </div>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://antinote.io/"><img src="logos/antinote.png" /></a>
           </div>
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://www.hogbaysoftware.com/bike/"><img src="logos/bike.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://www.hogbaysoftware.com/bike/">
-                <h3>Bike Outliner<div class=price>$29.99</div></h3>
-              </a>
-              <p>An unusually fast writing app designed for your Mac. Use Bike to think, write, organize. Make lists, take notes, create documents.</p>
-              <p class=features> <a target="_blank" href="https://www.hogbaysoftware.com/posts/bike-rich-text/">Innovative rich text editor</a>. Live word counts and other text statistics. Keyboard based navigation. Deeplinks. </p>
-            </div>
-          </div> 
-
-           <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://software.charliemonroe.net/downie"><img src="logos/downie.avif"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://software.charliemonroe.net/downie">
-                <h3>Downie<div class=price>$19.99</div></h3>
-              </a>
-              <p>Easily download videos from thousands of different sites.</p>
-              <p class=features> Supports upto 1000 sites. 4k video downloads. Postprocessing/conversion. </p>
-            </div>
-          </div> 
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://netnewswire.com/"><img src="logos/nnw.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://netnewswire.com/">
-                <h3> NetNewsWire<div class=price>Free</div></h3>
-              </a>
-              <p>Free and open source RSS reader for Mac, iPhone, and iPad</p>
-              <p class=features> Custom themes. Syncing via iCloud. Single-key keyboard shortcuts. Folders. Importing and exporting OPML feed lists.</p>
-            </div>
+          <div class="content">
+            <a target="_blank" href="https://antinote.io/">
+              <h3>
+                Antinote
+                <div class="price">$5</div>
+              </h3>
+            </a>
+            <p>Beautiful productivity scratchpad.</p>
+            <p class="features">
+              Floating plaintext notes, with inline math, variables and conversions. Timers and checklists. Auto paste (Automatically paste anything that gets copied).
+            </p>
           </div>
+        </div>
 
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://culturedcode.com/things/"><img src="logos/things.png" style="padding-top: 7px;"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://culturedcode.com/things/">
-                <h3> Things<div class=price>$50</div> </h3>
-              </a>
-              <p>Take notes and make flashcards, then study them using spaced repetition. </p>
-              <p class=features> Offline first. Markdown. Tags and two-way references. Sketches, diagrams, and attachments</p>
-            </div>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://bear.app/"><img src="logos/bear.png" /></a>
           </div>
-
-          <!-- NOTA -->
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://nota.md/"><img src="logos/nota.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://nota.md/">
-                <h3> Nota<div class=price>$49</div> </h3>
-              </a> 
-              <p>Local Markdown editor for Mac. No accounts, no subscription, no vendor lock-in.</p>
-              <p class=features> Multiple selections. True plain-text. Command Palette with custom commands. Quick Open. Wiki-Links. </p>
-            </div>
-          </div>  
-
-          <!-- PASTEPAL -->
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://indiegoodies.com/pastepal"><img src="logos/pastepal.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://indiegoodies.com/pastepal">
-                <h3> PastePal<div class=price>Freemium ($25)</div></h3>
-              </a>
-              <p>Best universal clipboard manager for Mac, iPhone and iPad. Access your most recent history at easy with a flexible and unobtrusive bar.</p>
-              <p class=features> Paste stack. Smart content detection. Rich previews. Drag and drop. Peer share. </p>
-            </div>
+          <div class="content">
+            <a target="_blank" href="https://bear.app/">
+              <h3>
+                Bear
+                <div class="price">Freemium ($29.99/year)</div>
+              </h3>
+            </a>
+            <p>
+              Bear is a beautiful, powerfully simple Markdown note taking app to capture, write, and organize your life.
+            </p>
+            <p class="features">Markdown. Tags. Export/import as multiple formats. Resize or crop images. Themes.</p>
           </div>
+        </div>
 
-          <!-- REEDER -->
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://reeder.app/"><img src="logos/reeder.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://reeder.app/">
-                <h3> Reeder<div class=price>$9.99</div></h3>
-              </a>
-              <p>RSS reader and read later client in one native app, now with support for iCloud syncing.</p>
-              <p class=features> <a target="_blank" href="https://bionic-reading.com/">Bionic reading</a>. Mark as read on scroll. Reader View. Built-in iCloud sync. </p>
-            </div>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://www.hogbaysoftware.com/bike/"><img src="logos/bike.png" /></a>
           </div>
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://www.literatureandlatte.com/scapple/overview"><img src="logos/scapple.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://www.literatureandlatte.com/scapple/overview">
-                <h3> Scapple<div class=price>$20.99</div></h3>
-              </a>
-              <p>A virtual sheet of paper that lets you make notes anywhere and connect them using lines or arrows.</p>
-              <p class=features> Double-click anywhere to create note. Export/print. Groups. Connect with drag and drop. Compeletely freeform. </p>
-            </div>
+          <div class="content">
+            <a target="_blank" href="https://www.hogbaysoftware.com/bike/">
+              <h3>
+                Bike Outliner
+                <div class="price">$29.99</div>
+              </h3>
+            </a>
+            <p>
+              An unusually fast writing app designed for your Mac. Use Bike to think, write, organize. Make lists, take
+              notes, create documents.
+            </p>
+            <p class="features">
+              <a target="_blank" href="https://www.hogbaysoftware.com/posts/bike-rich-text/"
+                >Innovative rich text editor</a
+              >. Live word counts and other text statistics. Keyboard based navigation. Deeplinks.
+            </p>
           </div>
+        </div>
 
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://shottr.cc/"><img src="logos/shottr.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://shottr.cc/">
-                <h3> Shottr <div class=price>Free</div> </h3>
-              </a>
-              <p>Shottr is a tiny and fast mac screenshot tool, optimized for Apple silicon.</p>
-              <p class=features> Annotations. Scrolling screenshots. Cloud upload. OCR. Color picker. Overlay images.</p>
-            </div>
-          </div>  
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://www.apptorium.com/sidenotes"><img src="logos/sidenotes.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://www.apptorium.com/sidenotes">
-                <h3> Sidenotes <div class=price>$19.99</div></h3>
-              </a>
-              <p>SideNotes keeps your notes on the side of the screen. Appears when you click a little bar or move your cursor to the screen side. </p>
-              <p class=features>Markdown. Themes. Search. Keyboard shortcuts. Hex code color rendering. Image support.  </p>
-            </div>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://charmstone.app/"><img src="logos/charmstone.png" /></a>
           </div>
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://github.com/exelban/stats"><img src="logos/stats.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://github.com/exelban/stats">
-                <h3> Stats<div class=price>Free</div> </h3>
-              </a>
-              <p>MacOS system monitor in your menu bar</p>
-              <p class=features> CPU, GPU, memory usage, disk, network utilization. Sensors information (temperature, voltage, power). </p>
-            </div>
+          <div class="content">
+            <a target="_blank" href="https://charmstone.app/">
+              <h3>
+                Charmstone
+                <div class="price">Free</div>
+              </h3>
+            </a>
+            <p>Use spatial memory to put your desired app in focus more quickly</p>
+            <p class="features">
+              Open a radial menu around your mouse pointer to switch between apps. Paid version unlocks more menu items.
+            </p>
           </div>
+        </div>
 
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://panic.com/transmit/"><img src="logos/transmit.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://panic.com/transmit/">
-                <h3> Transmit<div class=price>$45</div> </h3>
-              </a>
-              <p>The gold standard of macOS file transfer apps. Upload and manage files on tons of servers with an intuitive UI. <a href="https://cyberduck.io/">Cyberduck</a> is a free alternative.</p>
-              <p class=features> Dual pane interface. Compatible with FFTP, SFTP, WebDAV, B2, and S3. Key management. Local-local sync. Tags.</p>
-            </div>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href=https://cleanshot.com/">
+              <img src="logos/cleanshot.png" />
+            </a>
           </div>
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://corkmac.app"><img src="logos/cork.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://corkmac.app">
-                <h3> Cork<div class=price>Free</div> </h3>
-              </a>
-              <p>The best Homebrew GUI interface available. </p>
-              <p class=features> Install from any Tap. Cache-management. Hyper-efficient. </p>
-            </div>
+          <div class="content">
+            <a target="_blank" href=https://cleanshot.com/">
+              <h3>
+                Cleanshot X
+                <div class="price">$29</div>
+              </h3>
+            </a>
+            <p>Capture your Mac’s screen like a pro.</p>
+            <p class="features">
+              Add annotations and backgrounds. Scrolling capture, screen recording. Built-in OCR.
+            </p>
           </div>
+        </div>
 
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://ricks-apps.com/osx/sitesucker/index.html"><img src="logos/sitesucker.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://ricks-apps.com/osx/sitesucker/index.html">
-                <h3> SiteSucker<div class=price>$5</div> </h3>
-              </a>
-              <p>Create local copies of entire websites, by pasting in a link.</p>
-              <p class=features> Route-based downloading. Saves images, PDFs, style sheets, etc. Pause and resumse downloads.  </p>
-            </div>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href=https://www.craft.do">
+              <img src="logos/craft.png" />
+            </a>
           </div>
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://lowtechguys.com/rcmd/"><img src="logos/rcmd.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://lowtechguys.com/rcmd/">
-                <h3> rcmd<div class=price>$12.99</div> </h3>
-              </a>
-              <p>Hold down the right CMD key and press the first letter of the app name to focus apps instantly.</p>
-              <p class=features> Optional switching view GUI. Launch unopened apps too.  </p>
-            </div>
+          <div class="content">
+            <a target="_blank" href=https://www.craft.do">
+              <h3>
+                Craft
+                <div class="price"> Freemium ($96/year)</div>
+              </h3>
+            </a>
+            <p>Your space for notes, tasks, and big ideas.</p>
+            <p class="features">
+              First-class yet lightweight tasks features. Custom themes and collaboration. Publish to the web.
+            </p>
           </div>
+        </div>
 
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://rectangleapp.com/"><img src="logos/rectangle.png"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://rectangleapp.com/">
-                <h3> Rectangle <div class=price>Free</div> </h3>
-              </a>
-              <p>Move and resize windows in macOS using (customizable) keyboard shortcuts or snap areas</p>
-            </div>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://software.charliemonroe.net/downie"><img src="logos/downie.avif" /></a>
           </div>
-
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://typora.io/"><img src="logos/typora.png" style="padding: 10px"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://typora.io/">
-                <h3>Typora<div class=price>$14.99</div> </h3>
-              </a>
-              <p>A truly minimal Markdown editor. </p>
-              <p class=features> Local files, export to mulitple formats, WYSIWYG editing experience, custom themes, LaTeX, HTML, and code highlighting support.</p>
-            </div>
+          <div class="content">
+            <a target="_blank" href="https://software.charliemonroe.net/downie">
+              <h3>
+                Downie
+                <div class="price">$19.99</div>
+              </h3>
+            </a>
+            <p>Easily download videos from thousands of different sites.</p>
+            <p class="features">Supports upto 1000 sites. 4k video downloads. Postprocessing/conversion.</p>
           </div>
+        </div>
 
-          <div class=app>
-            <div class=logo>
-              <a target="_blank" href="https://eternalstorms.at/yoink/mac/"><img src="logos/yoink.webp"></a>
-            </div>
-            <div class=content>
-              <a target="_blank" href="https://eternalstorms.at/yoink/mac/">
-                <h3> Yoink <div class=price>$8.99</div> </h3>
-              </a>
-              <p>Better drag and drop on your Mac. Yoink offers a “shelf" for files and app-content you want to move or copy.</p>
-              <p class=features> Customize location. Quick look. Handoff. Clipboard history.</p>
-
-            </div>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://ia.net/writer"><img src="logos/ia.webp" /></a>
           </div>
+          <div class="content">
+            <a target="_blank" href="https://ia.net/writer">
+              <h3>
+                iA Writer
+                <div class="price">$49.99</div>
+              </h3>
+            </a>
+            <p>Minimalist Markdown editor. </p>
+            <p class="features">Focus mode. Style check. Export to multiple formats.</p>
+          </div>
+        </div>
 
-          <!-- <div class=app>
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://iina.io/"><img src="logos/iina.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://iina.io/">
+              <h3>
+                IINA
+                <div class="price">Free</div>
+              </h3>
+            </a>
+            <p>The modern media player for macOS </p>
+            <p class="features">Plays local files, Youtube playlists, or online streams. Customizable UI. Music amd picture-in-picture modes. Plugin system.</p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://netnewswire.com/"><img src="logos/nnw.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://netnewswire.com/">
+              <h3>
+                NetNewsWire
+                <div class="price">Free</div>
+              </h3>
+            </a>
+            <p>Free and open source RSS reader for Mac, iPhone, and iPad</p>
+            <p class="features">
+              Custom themes. Syncing via iCloud. Single-key keyboard shortcuts. Folders. Importing and exporting OPML
+              feed lists.
+            </p>
+          </div>
+        </div>
+
+        <!--<div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://nota.md/"><img src="logos/nota.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://nota.md/">
+              <h3>
+                Nota
+                <div class="price">$49</div>
+              </h3>
+            </a>
+            <p>Local Markdown editor for Mac. No accounts, no subscription, no vendor lock-in.</p>
+            <p class="features">
+              Multiple selections. True plain-text. Command Palette with custom commands. Quick Open. Wiki-Links.
+            </p>
+          </div>
+        </div>-->
+
+        <!--<div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://indiegoodies.com/pastepal"><img src="logos/pastepal.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://indiegoodies.com/pastepal">
+              <h3>
+                PastePal
+                <div class="price">Freemium ($25)</div>
+              </h3>
+            </a>
+            <p>
+              Best universal clipboard manager for Mac, iPhone and iPad. Access your most recent history at easy with a
+              flexible and unobtrusive bar.
+            </p>
+            <p class="features">Paste stack. Smart content detection. Rich previews. Drag and drop. Peer share.</p>
+          </div>
+        </div>-->
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://lowtechguys.com/rcmd/"><img src="logos/rcmd.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://lowtechguys.com/rcmd/">
+              <h3>
+                rcmd
+                <div class="price">$12.99</div>
+              </h3>
+            </a>
+            <p>Hold down the right CMD key and press the first letter of the app name to focus apps instantly.</p>
+            <p class="features">Optional switching view GUI. Launch unopened apps too.</p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://rectangleapp.com/"><img src="logos/rectangle.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://rectangleapp.com/">
+              <h3>
+                Rectangle
+                <div class="price">Free</div>
+              </h3>
+            </a>
+            <p>Move and resize windows in macOS using (customizable) keyboard shortcuts or snap areas</p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://reeder.app/classic/"><img src="logos/reeder-classic.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://reeder.app/classic/">
+              <h3>
+                Reeder Classic
+                <div class="price">$9.99</div>
+              </h3>
+            </a>
+            <p>RSS reader and read later client in one native app, now with support for iCloud syncing.</p>
+            <p class="features">
+              <a target="_blank" href="https://bionic-reading.com/">Bionic reading</a>. Mark as read on scroll. Reader
+              View. Built-in iCloud sync.
+            </p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://reeder.app/"><img src="logos/reeder.webp" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://reeder.app/">
+              <h3>
+                Reeder
+                <div class="price">Freemium ($10/year)</div>
+              </h3>
+            </a>
+            <p>Your inbox for reading, watching and listening to content from various sources.</p>
+            <p class="features">
+              Unified timeline. Content filters (leywords, media and feed types). Save links. Built-in iCloud sync.
+            </p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://www.literatureandlatte.com/scapple/overview"
+              ><img src="logos/scapple.png"
+            /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://www.literatureandlatte.com/scapple/overview">
+              <h3>
+                Scapple
+                <div class="price">$20.99</div>
+              </h3>
+            </a>
+            <p>A virtual sheet of paper that lets you make notes anywhere and connect them using lines or arrows.</p>
+            <p class="features">
+              Double-click anywhere to create note. Export/print. Groups. Connect with drag and drop. Compeletely
+              freeform.
+            </p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://shottr.cc/"><img src="logos/shottr.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://shottr.cc/">
+              <h3>
+                Shottr
+                <div class="price">Free</div>
+              </h3>
+            </a>
+            <p>Shottr is a tiny and fast mac screenshot tool, optimized for Apple silicon.</p>
+            <p class="features">Annotations. Scrolling screenshots. Cloud upload. OCR. Color picker. Overlay images.</p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://www.apptorium.com/sidenotes"><img src="logos/sidenotes.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://www.apptorium.com/sidenotes">
+              <h3>
+                Sidenotes
+                <div class="price">$19.99</div>
+              </h3>
+            </a>
+            <p>
+              SideNotes keeps your notes on the side of the screen. Appears when you click a little bar or move your
+              cursor to the screen side.
+            </p>
+            <p class="features">
+              Markdown. Themes. Search. Keyboard shortcuts. Hex code color rendering. Image support.
+            </p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://ricks-apps.com/osx/sitesucker/index.html"
+              ><img src="logos/sitesucker.png"
+            /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://ricks-apps.com/osx/sitesucker/index.html">
+              <h3>
+                SiteSucker
+                <div class="price">$5</div>
+              </h3>
+            </a>
+            <p>Create local copies of entire websites, by pasting in a link.</p>
+            <p class="features">
+              Route-based downloading. Saves images, PDFs, style sheets, etc. Pause and resumse downloads.
+            </p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://www.sketch.com/"><img src="logos/sketch.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://www.sketch.com/">
+              <h3>
+                Sketch
+                <div class="price">$120</div>
+              </h3>
+            </a>
+            <p>Design, prototype and illustrate.</p>
+            <p class="features">Stack layout. Plugins and extensions. Create prototypes. Export to multiple formats. </p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://github.com/exelban/stats"><img src="logos/stats.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://github.com/exelban/stats">
+              <h3>
+                Stats
+                <div class="price">Free</div>
+              </h3>
+            </a>
+            <p>MacOS system monitor in your menu bar</p>
+            <p class="features">
+              CPU, GPU, memory usage, disk, network utilization. Sensors information (temperature, voltage, power).
+            </p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://tableplus.com/"><img src="logos/tableplus.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://tableplus.com/">
+              <h3>
+                TablePlus
+                <div class="price">Freemium ($99)</div>
+              </h3>
+            </a>
+            <p>Database management made easy.</p>
+            <p class="features">Edit rows, filter, query editor for MySQL, PostgreSQL, SQLite & more.</p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://tableplus.com/"><img src="logos/tableplus.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://tableplus.com/">
+              <h3>
+                TableTool
+                <div class="price">Freemium ($29)</div>
+              </h3>
+            </a>
+            <p>A native, beautiful, and blazing-fast GUI to explore CSVs</p>
+            <p class="features">Built-in filters. Custom SQL queries over multiple CSV files.</p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://www.taskpaper.com/"><img src="logos/taskpaper.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://www.taskpaper.com/">
+              <h3>
+                Taskpaper
+                <div class="price">$30</div>
+              </h3>
+            </a>
+            <p>Plain text to-do lists for Mac.</p>
+            <p class="features">Tags, formatting and scheduling. Command palette. Custom cripting and styling. </p>
+          </div>
+        </div>
+
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://culturedcode.com/things/"
+              ><img src="logos/things.png" style="padding-top: 7px"
+            /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://culturedcode.com/things/">
+              <h3>
+                Things
+                <div class="price">$50</div>
+              </h3>
+            </a>
+            <p>Take notes and make flashcards, then study them using spaced repetition.</p>
+            <p class="features">
+              Offline first. Markdown. Tags and two-way references. Sketches, diagrams, and attachments
+            </p>
+          </div>
+        </div>
+
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://panic.com/transmit/"><img src="logos/transmit.png" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://panic.com/transmit/">
+              <h3>
+                Transmit
+                <div class="price">$45</div>
+              </h3>
+            </a>
+            <p>
+              The gold standard of macOS file transfer apps. Upload and manage files on tons of servers with an
+              intuitive UI. <a href="https://cyberduck.io/">Cyberduck</a> is a free alternative.
+            </p>
+            <p class="features">
+              Dual pane interface. Compatible with FFTP, SFTP, WebDAV, B2, and S3. Key management. Local-local sync.
+              Tags.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://typora.io/"><img src="logos/typora.png" style="padding: 10px" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://typora.io/">
+              <h3>
+                Typora
+                <div class="price">$14.99</div>
+              </h3>
+            </a>
+            <p>A truly minimal Markdown editor.</p>
+            <p class="features">
+              Local files, export to mulitple formats, WYSIWYG editing experience, custom themes, LaTeX, HTML, and code
+              highlighting support.
+            </p>
+          </div>
+        </div>
+
+        <div class="app">
+          <div class="logo">
+            <a target="_blank" href="https://eternalstorms.at/yoink/mac/"><img src="logos/yoink.webp" /></a>
+          </div>
+          <div class="content">
+            <a target="_blank" href="https://eternalstorms.at/yoink/mac/">
+              <h3>
+                Yoink
+                <div class="price">$8.99</div>
+              </h3>
+            </a>
+            <p>
+              Better drag and drop on your Mac. Yoink offers a “shelf" for files and app-content you want to move or
+              copy.
+            </p>
+            <p class="features">Customize location. Quick look. Handoff. Clipboard history.</p>
+          </div>
+        </div>
+
+        <!-- <div class=app>
             <div class=logo>
               <a target="_blank" href="https://apps.apple.com/us/app/quickshade/id931571202"><img src="logos/quickshade.png"></a>
             </div>
@@ -488,9 +768,7 @@
               <p>Dim your screen below the standard minimum brightness.</p>
             </div>
           </div> -->
-
       </div>
-      
 
       <!-- <h2> New </h2>
       <h4> Since then, we've had electron apps. </h4>
@@ -515,14 +793,10 @@
       <h2> Utilities </h2>
 
       <h2> Frivolous </h2> -->
-
-
-
-
-        </main>
-        <footer>
-          © Made by <a href="https://joodaloop.com">Judah</a>, you can make suggestions on <a href="https://github.com/stealsocks/mac-app-directory">Github</a>.
-        </footer>
-    </body>
-
+    </main>
+    <footer>
+      © Made by <a href="https://joodaloop.com">Judah</a>, you can make suggestions on
+      <a href="https://github.com/stealsocks/mac-app-directory">Github</a>.
+    </footer>
+  </body>
 </html>
